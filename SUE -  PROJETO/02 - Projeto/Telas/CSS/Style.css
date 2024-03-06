@@ -1,0 +1,25 @@
+body{
+    justify-content: center;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 20%;
+}
+
+a {
+    display: flex;
+    flex: 1;
+    margin: 10px ; /* Espaçamento entre os botões */
+    background: grey;
+    text-decoration: none;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+    border: 2px solid black;
+}
